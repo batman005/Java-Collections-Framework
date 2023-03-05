@@ -69,10 +69,12 @@ public class QueueUse {
 //		
 //		System.out.println(pq);
         
-  /* get me the top 3 student according to their maths marks*/
+    /* get me the top 3 student according to their maths marks*/
 		//Comparator and Comparable
 		
-		
+		//When ever we have to change the order of anything we have to use comparator
+		// Comparator is a total ordering 
+        //Comparable is a natural ordering 
 		List<StudentMarks> stMarks = new ArrayList<>();
 		stMarks.add(new StudentMarks(70,80));
 		stMarks.add(new StudentMarks(38,10));
@@ -98,8 +100,6 @@ public class QueueUse {
 		}
 		
 		System.out.println(top3);
-		
-		
 	}
 
 }
